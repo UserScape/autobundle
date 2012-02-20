@@ -7,7 +7,8 @@
  * @package     Auto Bundle
  */
 
-array_map(function($path){
+array_map(function($path)
+{
     
     // Only treat paths with start.php as proper bundle paths as all bundles must have start.php
     if(strpos($path, 'start.php') !== false)
